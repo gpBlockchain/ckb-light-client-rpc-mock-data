@@ -10,6 +10,7 @@
         "args": "0x4049ed9cec8a0d39c7a1e899f0dacb8a8c28ad14"
       },
       "script_type": "lock",
+      "script_search_mode": "prefix",
       "with_data": false
     },
     "asc",
