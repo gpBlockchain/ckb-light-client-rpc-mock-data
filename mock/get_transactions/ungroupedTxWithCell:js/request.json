@@ -1,7 +1,7 @@
 {
   "jsonrpc": "2.0",
   "id": 1,
-  "method": "get_cells_capacity",
+  "method": "get_transactions",
   "params": [
     {
       "script": {
@@ -11,6 +11,9 @@
       },
       "script_type": "lock",
       "script_search_mode": "prefix"
-    }
+    },
+    "asc",
+    "0xa",
+    null
   ]
 }

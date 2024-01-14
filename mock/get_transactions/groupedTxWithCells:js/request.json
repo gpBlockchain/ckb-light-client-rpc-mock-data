@@ -1,7 +1,7 @@
 {
   "jsonrpc": "2.0",
   "id": 1,
-  "method": "get_cells_capacity",
+  "method": "get_transactions",
   "params": [
     {
       "script": {
@@ -9,8 +9,12 @@
         "hash_type": "type",
         "args": "0x4049ed9cec8a0d39c7a1e899f0dacb8a8c28ad14"
       },
+      "script_search_mode": "prefix",
       "script_type": "lock",
-      "script_search_mode": "prefix"
-    }
+      "group_by_transaction": true
+    },
+    "asc",
+    "0xa",
+    null
   ]
 }
